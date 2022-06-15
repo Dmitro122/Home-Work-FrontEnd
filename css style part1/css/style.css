@@ -1,0 +1,176 @@
+/* heder tile color #2d7053 */
+/* footer tile color #888888 */
+/* primary text color #000000 */
+/* accent text color #ffffff */
+/* button color #cb9223 */
+
+:root{
+    --heder-tile: #2d7053;
+    --footer-tile: #888888;
+    --primary-text: #000000;
+    --accent-text: #ffffff;
+    --button: #cb9223;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+
+
+/* list style */
+.list{
+    list-style: none;
+}
+
+/* button style */
+.button{
+    border-style: none;
+    background-color: var(--button);
+    color: var(--accent-text);
+    width: 341px;
+    height: 74px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* HEADER style */
+
+.header-section{
+    background-color: var(--heder-tile);
+    height: 235px;
+}
+
+.account{
+    top: 45px;
+    left: 400px;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+}
+
+.header .text{
+    color: var(--accent-text);
+    font-size: 30px;
+    width: 135px;
+    position: absolute;
+    left: 40%;
+    top: 20px;
+}
+
+.menu{
+    position: absolute;
+    right: 400px;
+    top: 80px;
+}
+
+/* Hero Style */
+.hero {
+    background-image: url(background.png);
+    width: 750px;
+    height: 467px;
+    background-size: cover;
+    margin-bottom: 90px;
+    
+}
+
+.hero .background{
+    width: 750px;
+    height: 467px;
+    background-color: #000000;  
+    opacity: 40%;
+}
+
+
+/* hero buton style */
+.hero .button{
+    position: absolute;
+    left: 570px;
+    bottom: 90px;
+}
+
+/* Doctor sthyle */
+
+.doctor{
+    margin-bottom: 100px;
+}
+
+.doctor-photo{
+    padding-left: 30px;
+}
+
+
+.doctor .title{
+    position: absolute;
+    font-size: 36px;
+    right: 500px;
+    top: 770px;
+}
+
+.doctor .text{
+    width: 240px;
+    font-size: 24px;
+    position: absolute;
+    top: 855px;
+    right: 520px;
+}
+
+/* about style */
+.about .text{
+    font-size: 24px;
+}
+
+/* reasons to visit */
+.benefits{
+    margin-bottom: 120px;
+}
+
+
+.benefits .title{
+    font-size: 36px;
+}
+
+.points{
+    font-size: 24px;
+}
+
+.benefits .button{
+    position: absolute;
+    left: 570px;
+}
+
+/* fFOOTER STYLE */
+.footer{
+    background-color: var(--footer-tile);
+    height: 150px;
+}
+
+.account-footer{
+    width: 90px;
+    padding: 30px;
+}
+
+.contacts{
+    color: var(--accent-text);
+    font-size: 18px;
+}
+
+.position-adres{
+    position: absolute;
+    bottom: -1150px;
+    left: 700px;
+}
+
+.position-contacts{
+    position: absolute;
+    bottom: -1165px;
+    left: 900px;
+}
